@@ -12,10 +12,7 @@
   <body>
   	<header id="header"></header>
     <div id="body">
-      <div class="container">
-        <?php yield();?>
-        <div class="clearfix hidden" style="text-align:center;margin-top:50px;"><img src="/prototype/<?php echo str_replace('/','_',ACTION);?>.png" /></div>
-      </div>
+      <div class="container"><?php yield();?></div>
     </div>
     <footer id="footer">&copy;2014</footer>
     <script src="/assets/javascripts/jquery-1.11.1.min.js"></script>
